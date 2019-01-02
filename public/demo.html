@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="group">
+        <div id="p1" class="light" data-index="0"><div></div></div>
+        <div id="p2" class="light" data-index="1"><div></div></div>
+        <div id="p3" class="light" data-index="2"><div></div></div>
+        <div id="p4" class="light" data-index="3"><div></div></div>
+      </div>
+      <div class="group">
+        <div id="p5" class="light" data-index="4"><div></div></div>
+        <div id="p6" class="light" data-index="5"><div></div></div>
+        <div id="p7" class="light" data-index="6"><div></div></div>
+        <div id="p8" class="light" data-index="7"><div></div></div>
+      </div>
+    </div>
+    <div class="slidecontainer">
+      <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="dim"
+      />
+      <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="red"
+      />
+      <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="green"
+      />
+      <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="blue"
+      />
+      <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="white"
+      />
+    </div>
+    <script src="demo.js"></script>
+  </body>
+</html>

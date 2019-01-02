@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section id="song-selector">
+      <button data-src="mary.ogg" data-timeline="mary" >Знала ль ты Мария</button>
+      <button data-src="love.ogg" data-timeline="love" >Сколько стоит любовь</button>
+      <button data-src="pantomima.ogg" data-timeline="pantomima" >Пантомима</button>
+    </section>
+    <audio
+      style="width: 100%"
+      controls
+      preload
+      src="mary.ogg"
+      id="main-audio"
+    ></audio>
+
+    <div class="scene">
+      <div class="group">
+        <div id="p1" class="light"><div></div></div>
+        <div id="p2" class="light"><div></div></div>
+        <div id="p3" class="light"><div></div></div>
+        <div id="p4" class="light"><div></div></div>
+      </div>
+      <div class="group">
+        <div id="p5" class="light"><div></div></div>
+        <div id="p6" class="light"><div></div></div>
+        <div id="p7" class="light"><div></div></div>
+        <div id="p8" class="light"><div></div></div>
+      </div>
+    </div>
+    <p id="time"></p>
+
+    <p>Если свет отстает от звука - коррекция должна быть положительной</p>
+    <p>Коррекция <span id="correction"></span> секунды</p>
+    <div class="slidecontainer">
+      <input
+        type="range"
+        min="-100"
+        max="100"
+        value="0"
+        class="slider"
+        id="myRange"
+      />
+    </div>
+    <script src="sync.js"></script>
+    <script src="visualizer.js"></script>
+  </body>
+</html>
