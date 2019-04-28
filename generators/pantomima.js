@@ -189,31 +189,139 @@ tg.setKeyFrames([
     }
   },
   {
-    ts: 248.8, // MAIN red
+    ts: 249,
     rule: {
       c: red
     }
   },
   {
-    ts: 250,
+    ts: 249.2,
     rule: {
       c: dirty
     }
   },
+  // {
+  //   ts: 249.6,
+  //   rule: {
+  //     c: red
+  //   }
+  // },
+  // {
+  //   ts: 249.8,
+  //   rule: {
+  //     c: dirty
+  //   }
+  // },
   {
-    ts: 250.6, // MAIN red
+    ts: 250.4,
     rule: {
       c: red
     }
   },
   {
-    ts: 250.8,
+    ts: 250.6,
+    rule: {
+      c: dirty
+    }
+  },
+  // {
+  //   ts: 251.2,
+  //   rule: {
+  //     c: red
+  //   }
+  // },
+  // {
+  //   ts: 251.4,
+  //   rule: {
+  //     c: dirty
+  //   }
+  // },
+  {
+    ts: 251.6,
+    rule: {
+      c: red
+    }
+  },
+  {
+    ts: 251.8,
+    rule: {
+      c: dirty
+    }
+  },
+  // {
+  //   ts: 252.8,
+  //   rule: {
+  //     c: red
+  //   }
+  // },
+  // {
+  //   ts: 253,
+  //   rule: {
+  //     c: dirty
+  //   }
+  // },
+  {
+    ts: 252.8,
+    rule: {
+      c: red
+    }
+  },
+  {
+    ts: 253,
+    rule: {
+      c: dirty
+    }
+  },
+  // {
+  //   ts: 254.4,
+  //   rule: {
+  //     c: red
+  //   }
+  // },
+  // {
+  //   ts: 254.6,
+  //   rule: {
+  //     c: dirty
+  //   }
+  // },
+  {
+    ts: 254,
+    rule: {
+      c: red
+    }
+  },
+  {
+    ts: 254.2,
     rule: {
       c: dirty
     }
   },
   {
-    ts: 258,
+    ts: 255.2,
+    rule: {
+      c: red
+    }
+  },
+  {
+    ts: 255.4,
+    rule: {
+      c: dirty
+    }
+  },
+  {
+    ts: 256.4,
+    rule: {
+      c: red
+    }
+  },
+  {
+    ts: 256.6,
+    rule: {
+      c: dirty
+    }
+  },
+  {
+    ts: 257.6,
     rule: {
       c: red
     }
@@ -285,7 +393,7 @@ tg.setKeyFrames([
     }
   },
   {
-    ts: 333.4,
+    ts: 333.4
   },
   {
     ts: 333.5,

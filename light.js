@@ -12,17 +12,16 @@ let source = "player"; // 'demo'
 let demoFrame = Array(64); // 'demo'
 
 function run() {
-  dmx.connect();
+  // dmx.connect();
 
   setInterval(() => {
     const t = ts.getAudioPlaybackDuration();
-    console.log(demoFrame)
     const bytes = source === "demo" ? new Uint8Array(demoFrame) : player.getFrame(t);
 
-    console.log('bytes', bytes);
-    dmx.setChannels(bytes, 0).catch(e => {
-      console.log("ERR", e);
-    });
+    // console.log('bytes', bytes);
+    // dmx.setChannels(bytes, 0).catch(e => {
+    //   console.log("ERR", e);
+    // });
 
     emit(new Uint8Array(bytes));
   }, 30);
